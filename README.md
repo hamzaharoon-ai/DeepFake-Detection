@@ -1,45 +1,35 @@
-# 🛡️ DeepVision AI — Enterprise DeepFake Detection System
+# 🛡️ DeepFake Detection
 
-<p align="center">
-
-AI Powered DeepFake Detection & Media Authentication Platform
-
-Built using Deep Learning, Computer Vision, TensorFlow, OpenCV, and Streamlit.
-
-</p>
+> **AI-Powered DeepFake Detection System using Deep Learning, Computer Vision, TensorFlow, OpenCV, and Streamlit**
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-DeepVision AI is a premium DeepFake Detection platform designed to identify AI-generated and manipulated facial media using Deep Learning and Computer Vision techniques.
+DeepFake Detection is a deep learning application designed to identify AI-generated or manipulated facial images using Convolutional Neural Networks (CNNs). The system analyzes uploaded images and predicts whether they are **Real** or **Fake**, providing confidence scores through an interactive Streamlit interface.
 
-The system performs intelligent image analysis through a CNN-based architecture and provides real-time authenticity verification with an enterprise-level interactive interface.
-
-This project demonstrates practical implementation of:
+This project demonstrates practical applications of:
 
 - Deep Learning
-- CNN Architectures
-- Image Processing
 - Computer Vision
+- Image Classification
 - AI Media Authentication
 - Real-Time AI Inference
-- Streamlit Frontend Development
+- Streamlit Web Applications
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-- Premium Animated Dashboard
-- Real-Time DeepFake Detection
-- CNN-Based Classification
-- AI Probability Analysis
-- Modern Enterprise UI
-- Glassmorphism Interface
-- Interactive Sidebar Navigation
-- Downloadable JSON Prediction Reports
-- Analytics & Performance Visualization
-- Industrial-Level Frontend Design
+- 🔍 Real-Time DeepFake Image Detection
+- 🧠 CNN-Based Image Classification
+- 📊 Prediction Confidence Score
+- 🖼️ Image Upload and Preview
+- ⚡ Fast AI Inference
+- 🎨 Interactive Streamlit Dashboard
+- 📁 Downloadable Prediction Results
+- 📈 Performance Visualization
+- 💻 User-Friendly Interface
 
 ---
 
@@ -51,13 +41,13 @@ This project demonstrates practical implementation of:
 
 ---
 
-## Detection Room
+## Detection Interface
 
 ![Detection](assets/detection.png)
 
 ---
 
-## AI Prediction
+## Prediction Result
 
 ![Prediction](assets/prediction.png)
 
@@ -67,18 +57,24 @@ This project demonstrates practical implementation of:
 
 ```text
 Input Image
-     ↓
+      │
+      ▼
 Image Preprocessing
-     ↓
+      │
+      ▼
 CNN Deep Learning Model
-     ↓
+      │
+      ▼
 Feature Extraction
-     ↓
-Prediction Layer
-     ↓
-Real / Fake Classification
-     ↓
-Probability Analysis
+      │
+      ▼
+Classification Layer
+      │
+      ▼
+Real / Fake Prediction
+      │
+      ▼
+Confidence Score
 ```
 
 ---
@@ -86,14 +82,14 @@ Probability Analysis
 # ⚙️ Technologies Used
 
 | Technology | Purpose |
-|---|---|
-| Python | Core Development |
-| TensorFlow | Deep Learning |
+|------------|---------|
+| Python | Core Programming |
+| TensorFlow | Deep Learning Framework |
 | OpenCV | Image Processing |
-| CNN | DeepFake Classification |
-| Streamlit | Frontend Interface |
+| CNN | Image Classification |
+| Streamlit | Web Application |
 | NumPy | Numerical Computation |
-| PIL | Image Handling |
+| Pillow (PIL) | Image Handling |
 
 ---
 
@@ -106,8 +102,9 @@ DeepFake-Detection/
 ├── predict.py
 ├── train.py
 ├── deepfake_detection_model.h5
-├── cover.png
+├── requirements.txt
 ├── README.md
+├── cover.png
 │
 └── assets/
     ├── dashboard.png
@@ -118,25 +115,25 @@ DeepFake-Detection/
 
 ---
 
-# 🚀 Installation Guide
+# 🚀 Installation
 
-## Clone Repository
+## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/hamzamehmoodkhan1245/DeepVision-AI.git
+git clone https://github.com/hamzaharoon-ai/DeepVision-AI.git
 ```
 
 ---
 
-## Move Into Project Folder
+## 2️⃣ Navigate to the Project Directory
 
 ```bash
-cd DeepShield-AI/Code
+cd DeepVision-AI
 ```
 
 ---
 
-## Install Required Libraries
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -144,7 +141,7 @@ pip install -r requirements.txt
 
 ---
 
-## Run Application
+## 4️⃣ Launch the Application
 
 ```bash
 streamlit run app.py
@@ -163,106 +160,74 @@ streamlit run app.py
 # 📊 Model Information
 
 | Feature | Details |
-|---|---|
-| Model Type | CNN |
+|---------|----------|
+| Model | Convolutional Neural Network (CNN) |
 | Framework | TensorFlow |
-| Classification | Binary |
-| Detection | Real vs Fake |
+| Task | Binary Image Classification |
+| Classes | Real / Fake |
 | Inference | Real-Time |
 
 ---
 
 # 📈 Future Improvements
 
-- Real-Time Webcam Detection
-- Video DeepFake Analysis
-- Transformer-Based Architectures
-- Explainable AI (Grad-CAM)
-- Cloud Deployment
-- REST API Integration
-- User Authentication
-- Multi-Class DeepFake Detection
+- 🎥 Real-Time Webcam Detection
+- 🎬 DeepFake Video Detection
+- 🤖 Vision Transformer (ViT) Models
+- 📊 Explainable AI (Grad-CAM)
+- ☁️ Cloud Deployment
+- 🌐 REST API Integration
+- 🔐 User Authentication
+- 📱 Mobile Application
+- 📦 Docker Support
 
 ---
 
 # 👨‍💻 Developer
 
-## HAMZA HAROON
+## Hamza Haroon
 
-AI Engineer with hands-on experience in:
+Artificial Intelligence Student passionate about developing intelligent systems using:
 
 - Machine Learning
-- Computer Vision
 - Deep Learning
-- NLP
+- Computer Vision
+- Natural Language Processing
 - Generative AI
-- AI Automation Systems
+- AI Automation
 
-Focused on building practical AI systems and enterprise-level intelligent applications.
+My goal is to build practical AI applications that solve real-world problems while continuously improving my research and software engineering skills.
 
 ---
 
-# 🔗 Contact
+# 📬 Contact
 
-## LinkedIn
+**GitHub**
 
-```text
-https://www.linkedin.com/in/hamzaharoonai
-```
-
-## GitHub
-
-```text
 https://github.com/hamzaharoon-ai
-```
 
-## Email
+**LinkedIn**
 
-```text
+https://www.linkedin.com/in/hamzaharoonai
+
+**Email**
+
 hamzamehmoodkhan1245@gmail.com
-```
 
 ---
 
 # 📜 License
 
-This project is developed for educational, research, and portfolio purposes.
+This project is released for educational, research, and portfolio purposes.
 
 ---
 
-# ⭐ Best Professional Project Names
+# ⭐ Support
 
-These are the strongest names for GitHub, internships, foreign universities, and AI portfolios:
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-| Recommended | Why It Looks Professional |
-|---|---|
-| DeepShield AI | Most premium and industry-level |
-| DeepVision AI | Strong AI + Vision branding |
-| DeepGuard AI | Security-focused professional name |
-| VisionShield AI | Enterprise and modern sounding |
-| ForgeVision AI | Advanced AI branding |
-| DeepFake Sentinel | Research-oriented naming |
-| NeuralShield AI | Strong deep learning identity |
+Contributions, suggestions, and feedback are always welcome.
 
 ---
 
-# ✅ Best Final Recommendation
-
-## 🥇 DeepShield AI
-
-This name is:
-
-- Professional
-- Modern
-- Research-oriented
-- Attractive for foreign universities
-- Strong for recruiters
-- Suitable for AI portfolios
-- Suitable for research papers
-- Suitable for internships
-
----
-
-# ⭐ Final Note
-
-DeepShield AI demonstrates the practical implementation of Deep Learning and Computer Vision techniques for modern AI-generated media detection with a premium enterprise-level frontend experience.
+> **DeepFake Detection** demonstrates the practical application of Deep Learning and Computer Vision techniques for detecting AI-generated facial images, providing a foundation for research and real-world AI media authentication systems.
