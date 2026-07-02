@@ -47,25 +47,19 @@ This project demonstrates practical implementation of:
 
 ## Dashboard
 
-![Dashboard](Code/assets/dashboard.png)
+![Dashboard](assets/dashboard.png)
 
 ---
 
 ## Detection Room
 
-![Detection](Code/assets/detection.png)
+![Detection](assets/detection.png)
 
 ---
 
 ## AI Prediction
 
-![Prediction](Code/assets/prediction.png)
-
----
-
-## Analytics
-
-![Analytics](Code/assets/analytics.png)
+![Prediction](assets/prediction.png)
 
 ---
 
@@ -108,21 +102,18 @@ Probability Analysis
 ```text
 DeepFake-Detection/
 │
-├── Code/
-│   ├── app.py
-│   ├── app1.py
-│   ├── predict.py
-│   ├── train.py
-│   ├── cover.png
-│   ├── deepfake_detection_model.h5
-│   │
-│   └── assets/
-│       ├── dashboard.png
-│       ├── detection.png
-│       ├── prediction.png
-│       └── analytics.png
+├── app.py
+├── predict.py
+├── train.py
+├── deepfake_detection_model.h5
+├── cover.png
+├── README.md
 │
-└── README.md
+└── assets/
+    ├── dashboard.png
+    ├── detection.png
+    ├── prediction.png
+    └── analytics.png
 ```
 
 ---
@@ -216,13 +207,13 @@ Focused on building practical AI systems and enterprise-level intelligent applic
 ## LinkedIn
 
 ```text
-https://www.linkedin.com/in/hamza-mahmood-3b0b43320
+https://www.linkedin.com/in/hamzaharoonai
 ```
 
 ## GitHub
 
 ```text
-https://github.com/hamzamehmoodkhan1245
+https://github.com/hamzaharoon-ai
 ```
 
 ## Email
