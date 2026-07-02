@@ -37,19 +37,19 @@ This project demonstrates practical applications of:
 
 ## Dashboard
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/Dashboard.png)
 
 ---
 
 ## Detection Interface
 
-![Detection](assets/detection.png)
+![Detection](assets/Detection.png)
 
 ---
 
 ## Prediction Result
 
-![Prediction](assets/prediction.png)
+![Prediction](assets/Prediction.png)
 
 ---
 
